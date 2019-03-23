@@ -5,7 +5,7 @@ import "fmt"
 const new = 10 // want "const"
 
 func foo(make string) { // want "param"
-	var len string // "variable"
+	var len string // want "variable"
 
 	fmt.Println(len)
 }
